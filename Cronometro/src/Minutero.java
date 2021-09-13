@@ -1,10 +1,10 @@
 
-public class Minutero extends Segundero {
+public class Minutero extends Manecilla {
 
-	protected int minuto;
+	
 
-	public Minutero(int segundo, int minuto) {
-		super(segundo);
-		this.minuto = minuto;
+	public Minutero(int valor) {
+		this.setLimite(60);
+		this.setValor(valor);
 	}
 }
